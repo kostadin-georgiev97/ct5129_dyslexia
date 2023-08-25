@@ -1,0 +1,10 @@
+,Experiment,Accuracy,Recall,Precision,ROC,F1 Score,Threshold
+0,EXP01: Baseline Model,76.8,80.0,29.1,0.782,42.4,0.115
+1,EXP02: Random Forest w/o Class Balancing,90.0,10.2,75.0,0.549,17.7,0.5
+2,EXP03: Random Forest with Class Balancing,89.6,4.6,75.8,0.522,8.6,0.5
+3,EXP04: Random Forest with SMOTE,90.8,24.4,70.9,0.616,36.0,0.5
+4,EXP05: Random Forest with ADASYN,90.7,25.0,69.5,0.618,36.1,0.5
+5,EXP06: K-Nearest Neighbors with SMOTE,80.8,34.7,23.4,0.605,27.7,0.5
+6,EXP07: Support Vector Machine with SMOTE,86.2,49.9,39.2,0.702,43.8,0.5
+7,EXP08: NN with SMOTE,85.2,61.0,38.2,0.745,46.7,0.5
+8,EXP09: NN with SMOTE and Optimised Threshold,89.3,63.3,59.6,0.783,61.4,0.605
